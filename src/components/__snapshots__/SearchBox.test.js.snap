@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox Component renders correctly 1`] = `
+<div
+  onMouseLeave={[Function]}
+>
+  <input
+    className="search-box"
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    value=""
+  />
+  <div />
+</div>
+`;

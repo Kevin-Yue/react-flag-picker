@@ -1,0 +1,88 @@
+html {
+  /* font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif; */
+  font-size: 106.25%;
+  quotes: '“' '”';
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+li {
+  width: 100%;
+  padding-left: 2%;
+  font-size: 1.2em;
+}
+
+.search-box {
+  width: 70%;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 1.1em;
+  margin: 0 auto;
+}
+
+.main-view {
+  display: flex;
+}
+
+.card-container {
+  text-align: center;
+  margin: 2% 1.5%;
+}
+
+.card-container-continent,
+.card-container-country {
+  flex: 0 0 calc(100% / 4);
+}
+
+.card-container-selectedflags {
+  flex: 0 0 calc(200% / 5);
+}
+
+ul.drop-down {
+  list-style-type: none;
+}
+
+.header {
+  text-align: center;
+}
+
+.country-selector ul {
+  text-align: left;
+}
+
+.flag {
+  font-size: 4em;
+}
+
+.highLighted {
+  background-color: aliceblue;
+}
+
+li:hover {
+  background-color: aliceblue;
+}
+
+.info {
+  margin-top: 3%;
+}
+
+.option {
+  cursor: pointer;
+}
+
+.header{
+  border-bottom: 1px solid rgba(0,0,0,0.14);
+}
+
+.button-panel {
+  border-top: 1px solid rgba(0,0,0,0.14)
+}
+
+.button-panel > button {
+  margin-top: 4%;
+}
